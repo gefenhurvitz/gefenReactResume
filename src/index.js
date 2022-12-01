@@ -4,9 +4,11 @@ import "./index.css";
 import App from "./App";
 
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import MainPage from "./components/pages/MainPage";
-import About from "./components/pages/About";
-import Header from "./components/pages/Header";
+import MainPage from "./pages/MainPage";
+import About from "./pages/About";
+import Header from "./pages/Header";
+import Contact from "./pages/Contact";
+import Team from "./pages/Team";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
@@ -16,7 +18,10 @@ root.render(
         <Route path="/" element={<App />}>
           <Route path="home" element={<MainPage />} />
           <Route path="about" element={<About />} />
+          <Route path="contact" element={<Contact />} />
           <Route path="header" element={<Header />} />
+          <Route path="team" element={<Team />} />
+
         </Route>
       </Routes>
     </BrowserRouter>

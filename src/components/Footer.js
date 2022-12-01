@@ -1,41 +1,36 @@
 import React from 'react'
+import { FaFacebook , FaInstagram, FaLinkedin, FaYoutube } from 'react-icons/fa';
+
 
 const Footer = () => {
   return (
     <div>
-        <br/>
-        <br/>
-        <br/>
-        <br/>
-        <br/>
-
-        <footer class="footer text-center">
+        <footer class="footer text-center fixed-bottom bg-secondary">
             <div class="container">
                 <div class="row">
                     {/* <!-- Footer Location--> */}
                     <div class="col-lg-4 mb-5 mb-lg-0">
                         <h4 class="text-uppercase mb-4">Location</h4>
                         <p class="lead mb-0">
-                            2215 John Daniel Drive
+                            Ramat Gan
                             <br />
-                            Clark, MO 65243
+                            ISRAEL
                         </p>
                     </div>
                     {/* <!-- Footer Social Icons--> */}
+                    {/* FaFacebook , FaInstagram, FaLinkedin, FaYoutube  */}
                     <div class="col-lg-4 mb-5 mb-lg-0">
                         <h4 class="text-uppercase mb-4">Around the Web</h4>
-                        <a class="btn btn-outline-light btn-social mx-1" href="#!"><i class="fab fa-fw fa-facebook-f"></i></a>
-                        <a class="btn btn-outline-light btn-social mx-1" href="#!"><i class="fab fa-fw fa-twitter"></i></a>
-                        <a class="btn btn-outline-light btn-social mx-1" href="#!"><i class="fab fa-fw fa-linkedin-in"></i></a>
-                        <a class="btn btn-outline-light btn-social mx-1" href="#!"><i class="fab fa-fw fa-dribbble"></i></a>
+                        <a class="btn btn-outline-light btn-social mx-1" href="#!"><FaFacebook/></a>
+                        <a class="btn btn-outline-light btn-social mx-1" href="#!"><FaInstagram/></a>
+                        <a class="btn btn-outline-light btn-social mx-1" href="#!"><FaLinkedin/></a>
+                        <a class="btn btn-outline-light btn-social mx-1" href="#!"><FaYoutube/></a>
                     </div>
                     {/* <!-- Footer About Text--> */}
                     <div class="col-lg-4">
-                        <h4 class="text-uppercase mb-4">About Freelancer</h4>
+                        <h4 class="text-uppercase mb-4">About Gefen</h4>
                         <p class="lead mb-0">
-                            Freelance is a free to use, MIT licensed Bootstrap theme created by
-                            <a href="http://startbootstrap.com">Start Bootstrap</a>
-                            .
+                            gefen is geniuos
                         </p>
                     </div>
                 </div>
@@ -43,7 +38,7 @@ const Footer = () => {
         </footer>
 
         <div class="copyright py-4 text-center text-white">
-            <div class="container"><small>Copyright &copy; Your Website 2022</small></div>
+            <div class="container"><small>Copyright &copy; gefen 2022</small></div>
         </div>
 
 
