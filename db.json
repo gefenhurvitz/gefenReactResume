@@ -1,0 +1,36 @@
+{
+  "team": [
+    {
+      "id": 1,
+      "name": "mark",
+      "degree": "ceo",
+      "img": "typicode",
+      "instagram": "url"
+    },
+    {
+      "id": 2,
+      "name": "mark",
+      "degree": "ceo",
+      "img": "typicode",
+      "instagram": "url"
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "name": "Billabong Lifeguard Hat",
+      "price": 20,
+      "category": "clothes",
+      "img":"https://m.media-amazon.com/images/I/81R6uS+a4SL._AC_UX679_.jpg",
+      "link":"https://amzn.to/3Q7uttQ"
+    },
+    {
+      "id": 1,
+      "name": "Billabong Lifeguard Hat",
+      "price": 20,
+      "category": "clothes",
+      "img":"https://m.media-amazon.com/images/I/81R6uS+a4SL._AC_UX679_.jpg",
+      "link":"https://amzn.to/3Q7uttQ"
+    }
+  ]
+}

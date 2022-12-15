@@ -6,19 +6,20 @@ const Navbar = () => {
   return (
     <div>
 
-        <nav class="navbar navbar-expand-lg bg-secondary text-uppercase fixed-top" id="mainNav">
-            <div class="container">
-                <a class="navbar-brand" href="#page-top">Start Bootstrap</a>
-                <button class="navbar-toggler text-uppercase font-weight-bold bg-primary text-white rounded" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        <nav className="navbar navbar-expand-lg bg-secondary text-uppercase fixed-top" id="mainNav">
+            <div className="container">
+                <a className="navbar-brand" href="#page-top">GEFEN</a>
+                <button className="navbar-toggler text-uppercase font-weight-bold bg-primary text-white rounded" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
                     Menu
-                    <i class="fas fa-bars"></i>
+                    <i className="fas fa-bars"></i>
                 </button>
-                <div class="collapse navbar-collapse" id="navbarResponsive">
-                    <ul class="navbar-nav ms-auto">
-                        <li className="nav-item mx-0 mx-lg-1"><Link className="nav-link py-3 px-0 px-lg-3 rounded" to={'/home'}>home</Link></li>
-                        <li className="nav-item mx-0 mx-lg-1"><Link className="nav-link py-3 px-0 px-lg-3 rounded" to={'/about'}>About</Link></li>
-                        <li className="nav-item mx-0 mx-lg-1"><Link className="nav-link py-3 px-0 px-lg-3 rounded" to={'/contact'}>Contact</Link></li>
-                        <li className="nav-item mx-0 mx-lg-1"><Link className="nav-link py-3 px-0 px-lg-3 rounded" to={'/team'}>Team</Link></li>
+                <div className="collapse navbar-collapse" id="navbarResponsive">
+                    <ul className="navbar-nav ms-auto">
+                            <Link className="nav-link py-3 px-0 px-lg-3 rounded" to={'/home'}>home</Link>
+                            <Link className="nav-link py-3 px-0 px-lg-3 rounded" to={'/about'}>About</Link>
+                            <Link className="nav-link py-3 px-0 px-lg-3 rounded" to={'/contact'}>Contact</Link>
+                            <Link className="nav-link py-3 px-0 px-lg-3 rounded" to={'/team'}>Team</Link>
+                            <Link className="nav-link py-3 px-0 px-lg-3 rounded" to={'/products'}>Products</Link>
 
                     </ul>
                 </div>
